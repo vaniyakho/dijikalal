@@ -1,0 +1,94 @@
+.information {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 20px;
+  .information-right {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 20px;
+    .information-right-title {
+      width: 30%;
+      height: 100%;
+      display: flex;
+      flex-flow: column wrap;
+      align-items: flex-start;
+      line-height: 40px;
+      padding-right: 20px;
+      .information-right-top {
+        font-family: var(--font-family);
+        font-size: 17px;
+        font-weight: normal;
+        color: rgb(61, 61, 61);
+      }
+      .information-right-op {
+        font-family: var(--font-family);
+        font-size: 15px;
+        color: gray;
+        text-decoration: none;
+      }
+    }
+  }
+  .information-left {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    row-gap: 30px;
+    .information-left-text {
+      font-family: var(--font-family);
+      font-size: 15px;
+      font-weight: bold;
+      color: rgb(61, 61, 61);
+      padding-right: 30px;
+    }
+    .information-left-image {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-items: center;
+      column-gap: 10px;
+      .information-left-image-img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+      }
+    }
+    .information-left-email {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      column-gap: 10px;
+      padding-right: 30px;
+      .information-left-email-email {
+        width: 260px;
+        height: 50px;
+        background-color: #f0f0f1;
+        padding-right: 10px;
+        border: none;
+        border-radius: 8px;
+        font-family: var(--font-family);
+        font-size: 15px;
+        color: rgb(116, 115, 115);
+      }
+      .information-left-email-submit {
+        width: 50px;
+        height: 50px;
+        border-radius: 8px;
+        border: none;
+        background-color: #e0e0e2;
+        font-family: var(--font-family);
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: bold;
+      }
+    }
+  }
+}

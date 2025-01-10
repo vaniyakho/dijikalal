@@ -1,0 +1,24 @@
+.picture {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .picture-center {
+    width: var(--width-center);
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+    .picture-center-images {
+      height: 100%;
+      width: 320px;
+      .picture-center-images-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 16px;
+      }
+    }
+  }
+}

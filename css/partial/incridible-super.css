@@ -1,0 +1,110 @@
+.incridible-soper {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  .incridible-soper-center {
+    width: var(--width-center);
+    height: 100%;
+    background-color: #ecefee;
+    border-radius: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    .incridible-soper-center-link {
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      display: flex;
+      flex-flow: row wrap;
+      .incridible-soper-center-right {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 10px;
+        padding-right: 30px;
+        .incridible-soper-center-right-text {
+          font-family: var(--font-family);
+          background-color: #029a49;
+          border-radius: 16px;
+          color: #ecefee;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-top: 3px;
+          padding-bottom: 3px;
+        }
+      }
+      .incridible-soper-center-center {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: flex-end;
+        column-gap: 10px;
+        .incridible-soper-center-center-items {
+          width: 74px;
+          height: 74px;
+          background-color: #ffffff;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          .incridible-soper-center-center-items-img {
+            width: 58px;
+            height: 58px;
+          }
+          .incridible-soper-center-center-items-img-price{
+            width: 34px;
+            height: 20px;
+            background-color: #d41f1f;
+            position: absolute;
+            border-radius: 16px;
+            font-family: var(--font-family);
+            color: #ffffff;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            left: 60%;
+            bottom: 0;
+          }
+        }
+      }
+      .incridible-soper-center-left {
+        width: 15%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-right: 10px;
+        .incridible-soper-center-left-part {
+          width: 150px;
+          height: 50px;
+          border-radius: 50px;
+          display: flex;
+          flex-flow: row wrap;
+          background-color: #ffffff;
+          justify-content: center;
+          align-items: center;
+          column-gap: 5px;
+          .incridible-soper-center-left-text {
+            font-family: var(--font-family);
+            color: #029a49;
+            font-weight: bold;
+            font-size: small;
+          }
+          .incridible-soper-center-left-svg {
+            padding-top: 15px;
+          }
+        }
+      }
+    }
+  }
+}

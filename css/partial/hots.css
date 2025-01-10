@@ -1,0 +1,13 @@
+.hots{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    .hots-center{
+        width: var(--width-center);
+        height: 100%;
+        border: 1px solid lightgray;
+        border-radius: 16px;
+        background-color: teal;
+    }
+}

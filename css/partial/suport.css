@@ -1,0 +1,26 @@
+.suport{
+    width: 100%;
+    height: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    align-items: center;
+    column-gap: 30px;
+    .suport-text{
+        font-family: var(--font-family);
+        font-size: 12px;
+        font-weight: normal;
+        color:rgb(78, 78, 78);
+    }
+    .suport-gap1{
+        width: 2px;
+        height: 10px;
+        background-color: #9c9c9c;
+    }
+     .suport-gap2{
+        width: 1px;
+        height: 10px;
+        background-color: #9c9c9c;
+    }
+    
+}
